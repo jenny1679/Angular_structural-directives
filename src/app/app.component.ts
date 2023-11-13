@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'structural-directives';
+  title = 'Structure Directives';
+  isLoggedIn: boolean = false;
+  user: string = "Jenny";
+
+  names: string[] = ['Amy','Dave','John'];
+
+  grade: string = 'B';
 }
